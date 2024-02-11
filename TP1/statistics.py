@@ -3,6 +3,7 @@ import print_results
 
 def calculate(caminho_do_arquivo):
     aptos = 0
+    inaptos = 0
     dicionario_idades = {}
     modalidades = []
     
@@ -13,8 +14,8 @@ def calculate(caminho_do_arquivo):
             tokens = linha.split(',')
 
             # Verifica se o atleta está apto ou não
-            if tokens[12] == 'true\n':
-                aptos += 1
+            if tokens[12] == 'true\n': aptos += 1
+            else: inaptos += 1
 
             if tokens:
                 try:
@@ -32,4 +33,4 @@ def calculate(caminho_do_arquivo):
                 except ValueError:
                     print('Não foi possível separar em tokens')
     
-    print_results.results(aptos, dicionario_idades, modalidades)
+    print_results.results(aptos, inaptos, dicionario_idades, modalidades)
