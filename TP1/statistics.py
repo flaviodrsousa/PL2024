@@ -32,5 +32,6 @@ def calculate(caminho_do_arquivo):
 
                 except ValueError:
                     print('Não foi possível separar em tokens')
-    
+                    
+    inaptos -= 1 #Retira a primeira linha que é a caracterização de cada parâmetro
     print_results.results(aptos, inaptos, dicionario_idades, modalidades)
