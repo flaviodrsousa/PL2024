@@ -52,5 +52,7 @@ Em suma, é apresentada, na *imagem 1*, o resultado do programa executado com o 
 ![Resultados](Resultados.png)
 <p align="center">Imagem 1</p>
 
+Na data 12/02/2024 o TP1 foi revisto pelo professor e foi feita uma sugestão:
+- Uma vez que o *script* é algo pequeno, foi sugerido colocar todo o código num único ficheiro. Essa alteração foi realizada levando à finalização do TP1.
 
 
