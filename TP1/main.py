@@ -6,7 +6,7 @@ def calculate(caminho_do_arquivo):
     dicionario_idades = {}
     modalidades = []
     
-    with open(caminho_do_arquivo, 'r') as arquivo:
+    with open(caminho_do_arquivo, 'r', encoding='utf-8') as arquivo:
 
         # Abre cada linha
         for linha in arquivo:
@@ -46,7 +46,7 @@ def calculate(caminho_do_arquivo):
         print(f'[{key*5}...{key*5+4}] :: {dicionario_ordenado[key]} atletas')
 
     #Ordenar as modalidades e imprime-as
-    modalidades_ordenado = sorted(modalidades)
+    modalidades_ordenado = sorted(modalidades, key=str.casefold)
     print(f'\nModalidades: \n{modalidades_ordenado}')
 
 
