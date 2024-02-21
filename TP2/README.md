@@ -24,7 +24,8 @@ O resultado é armazenado em uma lista chamada resultado.
 2.**Função mdHTML**
 Este método recebe um nome de arquivo como entrada, lê o conteúdo do arquivo Markdown e chama a função convert para converter o conteúdo para HTML. Em seguida, ele escreve o resultado no arquivo HTML correspondente.
 
-##Conclusão
+## Conclusão
+
 O presente trabalho foi conduzido com sucesso, alcançando os objetivos estabelecidos de maneira eficaz e eficiente. Durante o processo, foram definidos dois principais objetivos delimitados anteriormente na secção *Objetivos*.
 Foi denotada uma dificuldade na implementação das expressões regulares. Essa dificuldade é justificada por ser algo novo e com algum certo cuidado e dedicação de estudo.
 Em suma, o programa converte com eficácia os arquivos pedidos. Como prova, temos o arquivo *exemplo.md* que foi convertido e criado o arquivo *exemplo.html*, ambos presentes nesta diretoria. 
