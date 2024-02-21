@@ -14,7 +14,9 @@ Com o objetivo de melhor entender e aplicar os conteúdos lecionados nas aulas, 
 Por fim, e como objetivo principal, é importante que o programa faça o seu proposto, isto é, converter as principais formas de escrita em MD para código HTML.
 
 ## Métodos Implementados
+
 1.**Função convert**
+
 Este método é responsável por converter as linhas do arquivo Markdown para linhas correspondentes em HTML. Ele percorre cada linha do arquivo Markdown e verifica o seu formato, aplicando as conversões necessárias para HTML.
 - Se a linha estiver em branco ou começar com "#" (indicando um cabeçalho), ">", "---" (indicando uma linha horizontal) etc., são aplicadas as transformações adequadas para criar as tags HTML correspondentes.
 - Se a linha começar com números seguidos por ponto (indicando uma lista numerada), ou começar com " - " (indicando uma lista não numerada), são criadas as tags HTML para listas ordenadas ou não ordenadas, respectivamente.
@@ -22,6 +24,7 @@ Além disso, são aplicadas substituições para negrito, itálico, imagens, lin
 O resultado é armazenado em uma lista chamada resultado.
 
 2.**Função mdHTML**
+
 Este método recebe um nome de arquivo como entrada, lê o conteúdo do arquivo Markdown e chama a função convert para converter o conteúdo para HTML. Em seguida, ele escreve o resultado no arquivo HTML correspondente.
 
 ## Conclusão
