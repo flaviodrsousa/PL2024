@@ -1,0 +1,16 @@
+123 on abc 456 off def = 789
+onola123=oNOFF
+987 off ghi 654 on jkl = 321
+mno off 111 on pqr = 222
+333 On stu 444 oFF vwx = 555
+yz123 on 666 off 789 = abc
+456 off xyz 789 on abc = 654
+def on 321 off 987 = 654
+111 On lmn 222 oFF opq = 333
+rst off 444 on uvw = 555
+xyz On 666 oFF abc 789 = 999
+123 off def 456 on ghi = 789
+jkl on 987 off 654 = 321
+mno oFF 111 On pqr = 222
+333 vwx 444 on stu = 555
+789 on yz123 off 666 = abc
