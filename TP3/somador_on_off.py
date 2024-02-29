@@ -7,7 +7,7 @@ def somador(linhas):
     on_off = 0 #Começa desligado (0)
 
     for linha in linhas:
-        correspondencia = re.findall(r'(\d+|on|off|=)', linha, re.IGNORECASE)
+        correspondencia = re.findall(r'([+/-]?\d+|on|off|=)', linha, re.IGNORECASE)
 
         if correspondencia:
             for dado in correspondencia:
@@ -16,7 +16,7 @@ def somador(linhas):
                     if(dado.lower() == "off"): on_off = 0;
                     else:
                         if(dado.lower() == "="):
-                            if(on_off == 1): print("Soma = " + str(sum))
+                           print("Soma = " + str(sum))
                         else:
                             if(on_off == 1):
                                 sum += int(dado)
