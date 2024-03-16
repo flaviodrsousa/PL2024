@@ -1,0 +1,16 @@
+{
+    "stok": [
+        {
+            "id": "A1",
+            "nome": "\u00c1gua",
+            "quantidade": 6,
+            "preco": "70c"
+        },
+        {
+            "id": "A2",
+            "nome": "Coca-Cola",
+            "quantidade": 0,
+            "preco": "1e"
+        }
+    ]
+}
